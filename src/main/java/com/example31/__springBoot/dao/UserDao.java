@@ -1,6 +1,5 @@
 package com.example31.__springBoot.dao;
 
-
 import com.example31.__springBoot.model.User;
 
 import java.util.List;

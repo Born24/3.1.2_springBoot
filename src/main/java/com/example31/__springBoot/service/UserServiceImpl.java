@@ -22,25 +22,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User findById(Long id) {
-        return userDao.findById(id);
-    }
-
+    public User findById(Long id) {return userDao.findById(id);}
 
     @Override
-    public void add(User user) {
-        userDao.add(user);
-
-    }
+    public void add(User user) {userDao.add(user);}
 
     @Override
-    public void update(User user) {
-        userDao.update(user);
-
-    }
+    public void update(User user) {userDao.update(user);}
 
     @Override
-    public void delete(Long id) {
-        userDao.delete(id);
-    }
+    public void delete(Long id) {userDao.delete(id);}
 }
